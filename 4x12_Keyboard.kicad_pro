@@ -70,12 +70,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|46297750|72953000|b2f496ca-0193-498b-9f8b-38c222dc0d93|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -121,7 +116,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -670,7 +665,7 @@
         "uuid": "a2910d2b-4cb3-45c0-b15f-567c251a46aa"
       }
     ],
-    "used_designators": "#FLG1,#PWR1-48,D1-59,H1,JP1-2,Q1,R1-4,SW1-57,U1",
+    "used_designators": "#FLG1,#PWR1-48,D1-60,H1,JP1-2,Q1,R1-4,SW1-57,U1",
     "variants": []
   },
   "sheets": [
